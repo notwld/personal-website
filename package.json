@@ -1,0 +1,32 @@
+{
+  "name": "blurryface",
+  "version": "1.0.0",
+  "description": "blurryface's website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "author": "blurryface",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.3.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "framer-motion": "^7.2.1",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-next": "^12.2.5",
+    "prettier": "^2.7.1"
+  }
+}
