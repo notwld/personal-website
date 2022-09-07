@@ -1,5 +1,5 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import Fonts from "../components/layouts/Fonts";
+import Fonts from "../components/Fonts";
 import Layout from "../components/layouts/main";
 import theme from "../lib/theme";
 import { GridStyle } from "../components/grid-item";

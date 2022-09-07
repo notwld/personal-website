@@ -2,10 +2,10 @@
 (() => {
 var exports = {};
 exports.id = 888;
-exports.ids = [888,285];
+exports.ids = [888];
 exports.modules = {
 
-/***/ 8064:
+/***/ 4968:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -24,13 +24,13 @@ var external_react_ = __webpack_require__(6689);
 var react_ = __webpack_require__(8930);
 // EXTERNAL MODULE: external "@emotion/react"
 var external_emotion_react_ = __webpack_require__(2805);
-;// CONCATENATED MODULE: ./components/layouts/Fonts.js
+;// CONCATENATED MODULE: ./components/Fonts.js
 
 
 const Fonts = ()=>/*#__PURE__*/ jsx_runtime_.jsx(external_emotion_react_.Global, {
         styles: `@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=M+PLUS+Rounded+1c&display=swap');`
     });
-/* harmony default export */ const layouts_Fonts = (Fonts);
+/* harmony default export */ const components_Fonts = (Fonts);
 
 ;// CONCATENATED MODULE: external "next/head"
 const head_namespaceObject = require("next/head");
@@ -40,7 +40,7 @@ var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: external "@chakra-ui/icons"
 var icons_ = __webpack_require__(4513);
-;// CONCATENATED MODULE: ./components/layouts/ThemeToggleButton.js
+;// CONCATENATED MODULE: ./components/ThemeToggleButton.js
 
 
 
@@ -64,9 +64,9 @@ const ThemeToggleButton = ()=>{
         onClick: toggleColorMode
     }));
 };
-/* harmony default export */ const layouts_ThemeToggleButton = (ThemeToggleButton);
+/* harmony default export */ const components_ThemeToggleButton = (ThemeToggleButton);
 
-;// CONCATENATED MODULE: ./components/layouts/Navbar.js
+;// CONCATENATED MODULE: ./components/Navbar.js
 
 
 
@@ -162,7 +162,7 @@ const Navbar = (props)=>{
                     flex: 1,
                     align: "right",
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(layouts_ThemeToggleButton, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx(components_ThemeToggleButton, {}),
                         /*#__PURE__*/ jsx_runtime_.jsx(react_.Box, {
                             ml: 2,
                             display: {
@@ -214,7 +214,7 @@ const Navbar = (props)=>{
         })
     });
 };
-/* harmony default export */ const layouts_Navbar = (Navbar);
+/* harmony default export */ const components_Navbar = (Navbar);
 
 ;// CONCATENATED MODULE: ./components/layouts/main.js
 
@@ -237,7 +237,7 @@ const Main = ({ children , router  })=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(layouts_Navbar, {
+            /*#__PURE__*/ jsx_runtime_.jsx(components_Navbar, {
                 path: router.asPath
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(react_.Container, {
@@ -252,8 +252,8 @@ const Main = ({ children , router  })=>{
 
 // EXTERNAL MODULE: ./lib/theme.js
 var theme = __webpack_require__(7985);
-// EXTERNAL MODULE: ./pages/grid-item.js
-var grid_item = __webpack_require__(2328);
+// EXTERNAL MODULE: ./components/grid-item.js
+var grid_item = __webpack_require__(603);
 ;// CONCATENATED MODULE: ./pages/_app.js
 
 
@@ -266,8 +266,8 @@ const Website = ({ Component , pageProps , router  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.ChakraProvider, {
         theme: theme/* default */.Z,
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(layouts_Fonts, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(grid_item.GridStyle, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(components_Fonts, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(grid_item/* GridStyle */.Hy, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(main, {
                 router: router,
                 children: /*#__PURE__*/ (0,external_react_.createElement)(Component, {
@@ -514,7 +514,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [952,664,675,328,985], () => (__webpack_exec__(8064)));
+var __webpack_exports__ = __webpack_require__.X(0, [952,664,675,603,985], () => (__webpack_exec__(4968)));
 module.exports = __webpack_exports__;
 
 })();
