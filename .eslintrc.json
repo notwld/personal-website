@@ -2,12 +2,12 @@
     "root":true,
     "extends":"next",
     "rules": {
-        "no-unsed-vars":[
-            "error",
-            {
-                "argsIgnorePattern":"^_",
-                "varsIgnorePattern":"^_"
-            }
-        ]
+        // "no-unsed-vars":[
+        //     "error",
+        //     {
+        //         "argsIgnorePattern":"^_",
+        //         "varsIgnorePattern":"^_"
+        //     }
+        // ]
     }
 }
