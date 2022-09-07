@@ -1,5 +1,5 @@
 import { Container,Heading,SimpleGrid } from "@chakra-ui/react";
-import { GridItem } from "./grid-item";
+import { GridItem } from "../components/grid-item";
 import flask from "../public/flask.png";
 
 const Posts = () => {

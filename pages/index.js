@@ -1,9 +1,9 @@
 import { Box, Container, Heading, useColorMode, useColorModeValue, Link, Button, LinkOverlay, LinkBox } from "@chakra-ui/react"
-import Paragraph from "../components/layouts/Paragraph"
-import Section from "../components/layouts/Section"
+import Paragraph from "../components/Paragraph"
+import Section from "../components/Section"
 import NextLink from "next/link"
 import { ChevronRightIcon } from "@chakra-ui/icons"
-import { BioSection, BioYear } from "../components/layouts/Bio"
+import { BioSection, BioYear } from "../components/Bio"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faInstagram, faLinkedin, faMedium, faTwitter } from "@fortawesome/free-brands-svg-icons"
 const Page = () => {

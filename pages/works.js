@@ -1,6 +1,6 @@
 import { Container, Box, Heading, SimpleGrid } from "@chakra-ui/react";
-import Section from "../components/layouts/Section";
-import { WorkGridItem } from "./grid-item";
+import Section from "../components/Section";
+import { WorkGridItem } from "../components/grid-item";
 import netflix from "../public/netflix.jpg";
 import apriori from "../public/apriori.jpg";
 import locum from "../public/locum.jpg";

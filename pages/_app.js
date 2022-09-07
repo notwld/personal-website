@@ -2,7 +2,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Fonts from "../components/layouts/Fonts";
 import Layout from "../components/layouts/main";
 import theme from "../lib/theme";
-import { GridStyle } from "./grid-item";
+import { GridStyle } from "../components/grid-item";
 const Website = ({ Component, pageProps, router }) => {
     return (      
         <ChakraProvider theme={theme}>
