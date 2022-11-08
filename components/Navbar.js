@@ -57,7 +57,7 @@ const Navbar = props => {
                 <Flex align="center" mr={5}>
                     <NextLink href="/" passHref>
                     <Heading as="h1" size="lg" letterSpacing={'tighter'} cursor={"pointer"}>
-                        blurryface
+                        notwld
                        </Heading>
                     </NextLink>
                 </Flex>
