@@ -39,17 +39,20 @@ const Page = () => {
                     Bio
                 </Heading>
                 <BioSection>
-                    <BioYear>2000</BioYear> Born in Karachi (کراچی), Pakistan
-                </BioSection>
-                <BioSection>
-                    <BioYear>2017</BioYear> Completed Matriculation from The Educators
+                    <BioYear>Present</BioYear> Doing Bachelor's in Software Engineering from Usman Institute of Technology
                 </BioSection>
                 <BioSection>
                     <BioYear>2020</BioYear> Completed College from The Punjab Group of Colleges
                 </BioSection>
                 <BioSection>
-                    <BioYear>Present</BioYear> Doing Bachelor's in Software Engineering from Usman Institute of Technology
+                    <BioYear>2017</BioYear> Completed Matriculation from The Educators
                 </BioSection>
+                <BioSection>
+                    <BioYear>2000</BioYear> Born in Karachi (کراچی), Pakistan
+                </BioSection>
+                
+                
+                
             </Section>
             <Section delay={0.5}>
                 <Heading as={"h3"} variant="section-title">
