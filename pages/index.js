@@ -64,7 +64,7 @@ const Page = () => {
                 <LinkBox>
                     <Box mt={2}>
                         <FontAwesomeIcon icon={faGithub} color="purple" style={{ marginRight: 5 }} />
-                        <Link style={{ textDecoration: "none" }} href="https://www.github.com/blurryface92" target="_blank"><span>blurryface92</span></Link>
+                        <Link style={{ textDecoration: "none" }} href="https://www.github.com/notwld" target="_blank"><span>blurryface92</span></Link>
                     </Box>
                     <Box mt={2}>
                         <FontAwesomeIcon icon={faLinkedin} color="purple" style={{ marginRight: 5 }} />
