@@ -2,21 +2,27 @@ import { Box, Container, Heading, useColorMode, useColorModeValue, Link, Button,
 import Paragraph from "../components/Paragraph"
 import Section from "../components/Section"
 import NextLink from "next/link"
+import bg from "../public/bg.png"
+import Image from "next/image";
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import { BioSection, BioYear } from "../components/Bio"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faInstagram, faLinkedin, faMedium, faTwitter } from "@fortawesome/free-brands-svg-icons"
 const Page = () => {
+    const myLoader=({src})=>{
+        return `https://skillicons.dev/icons?i=python,flask,html,css,js,jquery,nodejs,express,react,mongodb,dotnet,mysql,prisma,netlify,heroku,git,figma,bootstrap&theme=dark&perline=9`;
+      }
     return (
         <Container>
 
             <Box display={{ md: 'flex' }} mt={5}>
                 <Box flexGrow={1}>
+                    <Image src={bg} alt={"cover"} placeholder={"blur"} loading="lazy" className="grid-item-thumbnail" ></Image>
                     <Heading as={"h2"} variant="page-title">
                         Muhammad Waleed
                     </Heading>
                     <p>
-                        Web Developer / Designer / Programmer / Software Engineer
+                    Software Engineer / Web Developer 
                     </p>
                 </Box>
             </Box>
@@ -27,7 +33,7 @@ const Page = () => {
                 <Heading as={"h3"} variant="section-title">
                     About
                 </Heading>
-                <Paragraph>A Software Engineering student from Pakistan. I aim to deepen my understanding in various areas of technology and product development.</Paragraph>
+                <Paragraph>A Software Engineering student at Usman Institute of Technology. I am proficient in various programming languages including Python, React, JavaScript, Node/Express, SQL, Prisma, Dotnet, MongoDB, Flask and have experience using platforms such as Heroku and Netlify. I am also skilled in using Git for version control. I am excited to continue learning and growing as a developer and am eager to contribute to projects on GitHub. I aim to deepen my understanding in various areas of technology and product development.</Paragraph>
                 <Box align="center" mt={4} justifyContent="center" alignItems={"center"}>
                     <NextLink href="/works" passHref>
                         <Button rightIcon={<ChevronRightIcon />} colorScheme={"teal"}>My Portfolio</Button>
@@ -35,6 +41,13 @@ const Page = () => {
                 </Box>
             </Section>
             <Section delay={0.5}>
+                <Heading as={"h3"} variant="section-title">
+                    Technology Stack
+                </Heading>
+                <Box>
+                    <Image loader={myLoader} src={"https://skillicons.dev/icons?i=python,flask,html,css,js,jquery,nodejs,express,react,mongodb,dotnet,mysql,prisma,netlify,heroku,git,figma,bootstrap&theme=dark&perline=9"} width={500}
+                    height={150} alt="Technology Stack"></Image>
+                </Box>
                 <Heading as={"h3"} variant="section-title">
                     Bio
                 </Heading>

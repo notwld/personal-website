@@ -7,6 +7,7 @@ import locum from "../public/locum.jpg";
 import airforshare from "../public/airforshare.jpg";
 import blog from "../public/blog.jpg";
 import newsapp from "../public/newsapp.jpg";
+import algos from "../public/algorithms.png";
 
 const Works = () => {
     return (
@@ -15,6 +16,9 @@ const Works = () => {
                 Works
             </Heading>
             <SimpleGrid columns={[1, 1, 2]} spacing={6}>
+                <Section>
+                    <WorkGridItem id="schedular" title="Web Based Process Schedular" thumbnail={algos} childern="Web based Scheduling Algorithms built with Flask, React and MUI" />
+                </Section>
                 <Section>
                     <WorkGridItem id="netflix" title="Netflix Clone" thumbnail={netflix} childern="A clone of Netflix built with React.js" />
                 </Section>
