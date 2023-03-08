@@ -4,7 +4,7 @@ import Section from "../components/Section"
 import NextLink from "next/link"
 import bg from "../public/bg.png"
 import Image from "next/image";
-import { ChevronRightIcon } from "@chakra-ui/icons"
+import { ChevronRightIcon,DownloadIcon } from "@chakra-ui/icons"
 import { BioSection, BioYear } from "../components/Bio"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faInstagram, faLinkedin, faMedium, faTwitter } from "@fortawesome/free-brands-svg-icons"
@@ -38,6 +38,10 @@ const Page = () => {
                     <NextLink href="/works" passHref>
                         <Button rightIcon={<ChevronRightIcon />} colorScheme={"teal"}>My Portfolio</Button>
                     </NextLink>
+                    <a href="https://drive.google.com/u/1/uc?id=1BzfEnJPtPdV4kTLq3NCgQztTQMpKpHdG&export=download" download>
+                        <Button style={{marginLeft:"10px"}} rightIcon={<DownloadIcon />} colorScheme={"teal"}>My Resume</Button>
+                    </a>
+    
                 </Box>
             </Section>
             <Section delay={0.5}>
@@ -79,15 +83,15 @@ const Page = () => {
                 </Heading>
                 <LinkBox>
                     <Box mt={2}>
-                        <FontAwesomeIcon icon={faGithub} color="purple" style={{ marginRight: 5 }} />
+                        <FontAwesomeIcon icon={faGithub} color="sky" style={{ marginRight: 5 }} />
                         <Link style={{ textDecoration: "none" }} href="https://www.github.com/notwld" target="_blank"><span>notwld</span></Link>
                     </Box>
                     <Box mt={2}>
-                        <FontAwesomeIcon icon={faLinkedin} color="purple" style={{ marginRight: 5 }} />
+                        <FontAwesomeIcon icon={faLinkedin} color="sky" style={{ marginRight: 5 }} />
                           <Link style={{ textDecoration: "none" }} href="https://www.linkedin.com/in/mwfarrukh/" target="_blank"><span>Muhammad Waleed</span></Link>  
                     </Box>
                     <Box mt={2}>
-                        <FontAwesomeIcon icon={faInstagram} color="purple" style={{ marginRight: 5 }} />
+                        <FontAwesomeIcon icon={faInstagram} color="sky" style={{ marginRight: 5 }} />
                         <Link style={{ textDecoration: "none" }} href="www.instagram.com/notwld" target="_blank"> <span>notwld</span></Link>
                     </Box>
                     <Box align="center" mt={4} justifyContent="center" alignItems={"center"}>
