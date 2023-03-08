@@ -22,7 +22,7 @@ export const GridItem = ({childern,thumbnail,href,title}) => {
 export const WorkGridItem = ({childern,id,thumbnail,title}) => {
     return (
         <Box w={"100%"} align="center">
-            <NextLink href={`/works`} passHref>
+            <NextLink href={`/works`} passhref>
                 <LinkBox cursor={"pointer"}>
                     <Image src={thumbnail} alt={title} placeholder={"blur"} loading="lazy" className="grid-item-thumbnail" />
                     <LinkOverlay href={`/works/${id}`} target="_blank">

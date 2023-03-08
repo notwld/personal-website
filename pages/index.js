@@ -35,7 +35,7 @@ const Page = () => {
                 </Heading>
                 <Paragraph>A Software Engineering student at Usman Institute of Technology. I am proficient in various programming languages including Python, React, JavaScript, Node/Express, SQL, Prisma, Dotnet, MongoDB, Flask and have experience using platforms such as Heroku and Netlify. I am also skilled in using Git for version control. I am excited to continue learning and growing as a developer and am eager to contribute to projects on GitHub. I aim to deepen my understanding in various areas of technology and product development.</Paragraph>
                 <Box align="center" mt={4} justifyContent="center" alignItems={"center"}>
-                    <NextLink href="/works" passHref>
+                    <NextLink href="/works" passhref>
                         <Button rightIcon={<ChevronRightIcon />} colorScheme={"teal"}>My Portfolio</Button>
                     </NextLink>
                     <a href="https://drive.google.com/u/1/uc?id=1BzfEnJPtPdV4kTLq3NCgQztTQMpKpHdG&export=download" download>
@@ -95,7 +95,7 @@ const Page = () => {
                         <Link style={{ textDecoration: "none" }} href="www.instagram.com/notwld" target="_blank"> <span>notwld</span></Link>
                     </Box>
                     <Box align="center" mt={4} justifyContent="center" alignItems={"center"}>
-                        <Link href="/posts" passHref style={{ textDecoration: "none" }}>
+                        <Link href="/posts" passhref style={{ textDecoration: "none" }}>
                             <Button rightIcon={<ChevronRightIcon />} colorScheme={"teal"}>Popular Posts</Button>
                         </Link>
                     </Box>

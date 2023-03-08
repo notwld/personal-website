@@ -21,7 +21,7 @@ const LinkItems = ({ href, path, children }) => {
     const active = path === href;
     const inactiveColor = useColorModeValue('gray.600', 'whiteAlpha.900');
     return (
-        <NextLink href={href} passHref>
+        <NextLink href={href} passhref>
             <Link p={2}
                 bg={active ? 'glassTeal' : undefined}
                 color={active ? '#202023' : inactiveColor}
@@ -55,7 +55,7 @@ const Navbar = props => {
                 align="center"
                 justifyContent="space-between">
                 <Flex align="center" mr={5}>
-                    <NextLink href="/" passHref>
+                    <NextLink href="/" passhref>
                     <Heading as="h1" size="lg" letterSpacing={'tighter'} cursor={"pointer"}>
                         notwld
                        </Heading>
@@ -83,13 +83,13 @@ const Navbar = props => {
                                 variant="outline"
                             />
                             <MenuList>
-                               <NextLink href="/works" passHref>
+                               <NextLink href="/works" passhref>
                                     <MenuItem as={Link}>Works</MenuItem>
                                 </NextLink>
-                                <NextLink href="/posts" passHref>
+                                <NextLink href="/posts" passhref>
                                     <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink>
-                                <NextLink href="https://www.github.com/notwld" passHref>
+                                <NextLink href="https://www.github.com/notwld" passhref>
                                     <MenuItem as={Link}>View Source</MenuItem>
                                 </NextLink>
                             </MenuList>
