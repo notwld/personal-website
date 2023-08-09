@@ -38,7 +38,7 @@ const Page = () => {
                     <NextLink href="/works" passhref>
                         <Button rightIcon={<ChevronRightIcon />} colorScheme={"teal"}>My Portfolio</Button>
                     </NextLink>
-                    <a href="https://drive.google.com/u/1/uc?id=1BzfEnJPtPdV4kTLq3NCgQztTQMpKpHdG&export=download" download>
+                    <a href="https://drive.google.com/file/d/1iMc7dBA7B0ZSTrgqF0R2uHQBeDfWXoyJ/view?usp=sharing" download>
                         <Button style={{marginLeft:"10px"}} rightIcon={<DownloadIcon />} colorScheme={"teal"}>My Resume</Button>
                     </a>
     
